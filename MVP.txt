@@ -1,0 +1,37 @@
+Exam site: (numbered list of views ex: [label: summary])
+a. header
+  1. logo
+  2. timer
+b. sidebar
+  1. list of questions
+    a. check mark if answered
+d. main: exam console
+  1. hompage: register form
+    a. name
+    b. email
+    c. submit
+  2. start: 
+    a. test description
+    b. start button
+  3. question:
+    a. question form
+    b. submit button
+  4. score:
+    a. score
+    b. share button(s)
+Database: numbered list of tables
+  1. questions:
+    a. questionID
+    b. questionText
+    b. answer (text, [bool])
+    c. type (multiple, choose-all, boolean)
+  2. options: multiple choice, 'choose all that agree apply'
+    a. id
+    b. questionID
+    c. optionText
+Functions:
+  frontend (form-action):
+    saveUser(): name, email - save locally
+    saveScore(): test score - save locally
+    getExam(name): api call - return questions
+    

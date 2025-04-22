@@ -1,0 +1,8 @@
+Load
+  1. Login
+  2. view Dashboard (saved and created exams)
+
+  a. account
+  b. scores
+  c. favorites
+  d. friends

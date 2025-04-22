@@ -1,0 +1,8 @@
+  frontend: login form action
+  backend: validateUser()
+    - receive hashed username, password
+    - connect to db
+    - query db
+    - close connection
+    - compare username, password to db
+    - return user-object, 0 - not found, error - bad credentials
